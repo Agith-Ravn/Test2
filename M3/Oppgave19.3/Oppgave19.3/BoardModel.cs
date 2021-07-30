@@ -12,5 +12,20 @@
                 Cells[i] = new CellModel();
             }
         }
+
+        public void SetPlayer1(string? position)
+        {
+            if (position == "a1") {}
+        }
+
+        public void SetPlayer2()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public string GetCellModel(int i)
+        {
+            return Cells[i].GetCellContent();
+        }
     }
 }
