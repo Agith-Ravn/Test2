@@ -17,5 +17,20 @@ namespace Oppgave19._3
             else if (CellContent == "o") return "o";
             else return " ";
         }
+
+        public void ChangeCellContent(string NewValue)
+        {
+            if (CellContent == "Empty")
+            {
+                CellContent = NewValue;
+            }
+        }
+
+        public bool CheckIfEmpty()
+        {
+            if (CellContent == "Empty") return true;
+            else return false;
+        }
+
     }
 }

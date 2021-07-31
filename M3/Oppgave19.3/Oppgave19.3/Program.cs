@@ -13,6 +13,7 @@ namespace Oppgave19._3
                 Console.WriteLine("Skrive inn hvor du vil sette kryss (Eksempel a1, c3 osv)");
                 var position = Console.ReadLine();
                 boardModel.SetPlayer1(position);
+                BoardView.Show(boardModel);
                 boardModel.SetPlayer2();
                 
             }
@@ -20,10 +21,12 @@ namespace Oppgave19._3
         }
     }
 
+    //For lat for å lage en ny class
     class BoardView
     {
         public static void Show(BoardModel m)
         {
+            Console.Clear();
             Console.WriteLine("    a b c  \n" +
                               "  ┌───────┐ \n" +
                               " 1│ " + UpdateCell(0, m) + " " + UpdateCell(1, m) + " " + UpdateCell(2, m) + " │ \n" +
