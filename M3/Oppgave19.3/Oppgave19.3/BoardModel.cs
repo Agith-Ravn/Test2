@@ -35,26 +35,16 @@ namespace Oppgave19._3
         public void SetPlayer2()
         {
             int randomIndex = random.Next(0, 9);
-            
-            if (Cells[randomIndex].CheckIfEmpty() == false)
+            do
             {
-
-                while (Cells[randomIndex].CheckIfEmpty() == false)
+                randomIndex = random.Next(0, 9);
+                if (Cells[randomIndex].CheckIfEmpty() == true)
                 {
-                    randomIndex = random.Next(0, 9);
-                    Cells[randomIndex].CheckIfEmpty();
-
-                    if (Cells[randomIndex].CheckIfEmpty() == true)
-                    {
-                        Cells[randomIndex].ChangeCellContent("o");
-                    }
+                    Cells[randomIndex].ChangeCellContent("o");
+                    break;
                 }
 
-            }
-            else
-            {
-                Cells[randomIndex].ChangeCellContent("o");
-            }
+            } while (Cells[randomIndex].CheckIfEmpty() == false);
 
         }
 
