@@ -4,13 +4,13 @@ namespace Oppgave19._5
 {
     public class Model
     {
-        private Player Spiler1 { get; set; }
+        public Player Spiller { get; set; }
         private Door[] Dører { get; set; }
         private Rom[] Rom { get; set; }
 
-        public Model()
+        public Model(string name)
         {
-            Spiler1 = new Player("FiksNavnSenere");
+            Spiller = new Player(name);
             Dører = new[]
             {
                 new Door("romB", "romA", "rød", false),
@@ -20,14 +20,14 @@ namespace Oppgave19._5
                 new Door("romF", "romE", "hvit", false )
             };
 
-            Rom = new[]
-            {
-                new Rom(""),
-                new Rom(),
-                new Rom(),
-                new Rom(),
+            var RomA = new Rom("A", "rød nøkkel", true);
+            var RomB = new Rom("B", "grønn nøkkel");
+            var RomC = new Rom("C", "hvit nøkkel");
+            var RomD = new Rom("D", "blue nøkkel");
+            var RomE = new Rom("E", "grå nøkkel");
+            var RomF = new Rom("F", false);
 
-            }
+            Rom = new[] {RomA, RomB, RomC, RomD, RomE, RomF};
         }
     }
 }

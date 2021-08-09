@@ -1,0 +1,16 @@
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\Oppgave19.5_Løsningforslag.exe
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\Oppgave19.5_Løsningforslag.deps.json
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\Oppgave19.5_Løsningforslag.runtimeconfig.json
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\Oppgave19.5_Løsningforslag.runtimeconfig.dev.json
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\Oppgave19.5_Løsningforslag.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\ref\Oppgave19.5_Løsningforslag.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\bin\Debug\net5.0\Oppgave19.5_Løsningforslag.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.csproj.AssemblyReference.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.AssemblyInfoInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.AssemblyInfo.cs
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.csproj.CoreCompileInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\ref\Oppgave19.5_Løsningforslag.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\M3\Oppgave19.5_Løsningforslag\Oppgave19.5_Løsningforslag\obj\Debug\net5.0\Oppgave19.5_Løsningforslag.genruntimeconfig.cache
