@@ -4,7 +4,7 @@ namespace Oppgave19._5
 {
     public class Player
     {
-        private string Navn { get; set; }
+        public string Navn { get; set; }
         private List<string> Har { get; set; }
         public Rom Rom { get; set; }
 
@@ -14,9 +14,9 @@ namespace Oppgave19._5
             Har = new List<string>();
         }
 
-        public void inventory()
+        public string Inventory()
         {
-
+            return string.Join("\n", Har);
         }
     }
 }

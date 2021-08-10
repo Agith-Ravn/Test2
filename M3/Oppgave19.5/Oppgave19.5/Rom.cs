@@ -28,5 +28,10 @@
             Vunnet = vunnet;
         }
 
+        public string hentInnhold()
+        {
+            //gjør om array til string + du bestemmer selv hva separator skal være
+            return string.Join("\n", Innhold);
+        }
     }
 }

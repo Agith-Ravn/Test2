@@ -2,12 +2,12 @@
 {
     public class Door
     {
-        private string A { get; set; }
-        private string B { get; set; }
-        private string Farge { get; set; }
-        private bool Åpent { get; set; }
+        public Rom A { get; set; }
+        public Rom B { get; set; }
+        public string Farge { get; set; }
+        public bool Åpent { get; set; }
 
-        public Door(string a, string b, string farge, bool åpent)
+        public Door(Rom a, Rom b, string farge, bool åpent)
         {
             A = a;
             B = b;
