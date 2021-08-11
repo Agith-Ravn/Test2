@@ -7,12 +7,11 @@ namespace Oppgave19._5
     {
         public Player Spiller { get; set; }
         private Door[] Dører { get; set; }
-        private Rom[] Rom { get; set; }
+        public Rom[] Rom { get; set; }
 
         public Model(string name)
         {
-            Spiller = new Player(name);
-
+            
             var RomA = new Rom("A", "rød nøkkel", true);
             var RomB = new Rom("B", "grønn nøkkel");
             var RomC = new Rom("C", "hvit nøkkel");
@@ -29,6 +28,8 @@ namespace Oppgave19._5
                 new Door(RomE, RomB, "blå", false),
                 new Door(RomF, RomE, "hvit", false )
             };
+
+            Spiller = new Player(name, RomA);
         }
 
         public string door()

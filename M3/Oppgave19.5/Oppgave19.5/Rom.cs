@@ -14,12 +14,14 @@
             Navn = navn;
             Innhold = new string[] {nøkkel};
             Start = start;
+            Vunnet = false;
         }
 
         public Rom(string navn, string nøkkel)
         {
             Navn = navn;
             Innhold = new string[] { nøkkel };
+            Vunnet = false;
         }
 
         public Rom(string navn, bool vunnet)

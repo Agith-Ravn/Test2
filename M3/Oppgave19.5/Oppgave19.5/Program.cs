@@ -7,8 +7,8 @@ namespace Oppgave19._5
         /*
          * Hvordan vil du programmet skal fungere?
          *  x Skrive navn
-         *  - Tekst om hvilken rom du er i
-         *  - Hvilken dør som tilgjengelig
+         *  - Starte på Rom A
+         *  - plukk opp tilgjengelig nøkkel
          *  - 
          *
         */
@@ -23,6 +23,10 @@ namespace Oppgave19._5
             while (true)
             {
                 UpdateView(game);
+                if (game.Rom[5].Vunnet) break;
+
+                var command = Console.ReadLine();
+                //if (command == "pick")
             }
         }
 
@@ -30,11 +34,24 @@ namespace Oppgave19._5
         {
             var spiller = game.Spiller;
             var rom = spiller.Rom;
-            var text = rom.Vunnet ? "Gratulerer, Du har fullført spillet! :)" : $"Du er i rom {rom.Navn}";
+            var text = rom.Vunnet
+                ? "Gratulerer, Du har fullført spillet! :)"
+                : $"{spiller.Navn} er i rom {spiller.getRoomName()}";
             
+            Console.Clear();
             Console.WriteLine(
                 $"{text}\n\nI rommet ser du: {rom.hentInnhold()}\n\n" +
                 $"{spiller.Navn} har: {spiller.Inventory()}\n\nDører tilgjengelig:\n{game.door()}");
+
+            while(true)
+            {
+                Console.WriteLine("\nSkriv \"1\" for å plukke opp nøkler ");
+                var command = Console.ReadLine();
+                
+                Console.WriteLine("\nFor å åpne dør, skriv \"2\" (game.door() eller \"B\" for å plukke opp dør ");
+                var command2 = Console.ReadLine();
+                break;
+            }
 
         }
     }
