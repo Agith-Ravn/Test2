@@ -41,17 +41,18 @@ namespace Oppgave19._5
             Console.Clear();
             Console.WriteLine(
                 $"{text}\n\nI rommet ser du: {rom.hentInnhold()}\n\n" +
-                $"{spiller.Navn} har: {spiller.Inventory()}\n\nDører tilgjengelig:\n{game.door()}");
+                $"{spiller.Navn} har: {spiller.Inventory()} {spiller.Get}\n\n" +
+                $"Dører tilgjengelig:\n{game.door()}");
 
-            while(true)
-            {
-                Console.WriteLine("\nSkriv \"1\" for å plukke opp nøkler ");
-                var command = Console.ReadLine();
+            //while(true)
+            //{
+            //    Console.WriteLine("\nSkriv \"1\" for å plukke opp nøkler ");
+            //    var command = Console.ReadLine();
                 
-                Console.WriteLine("\nFor å åpne dør, skriv \"2\" (game.door() eller \"B\" for å plukke opp dør ");
-                var command2 = Console.ReadLine();
-                break;
-            }
+            //    Console.WriteLine("\nFor å åpne dør, skriv \"2\" (game.door() eller \"B\" for å plukke opp dør ");
+            //    var command2 = Console.ReadLine();
+            //    break;
+            //}
 
         }
     }
