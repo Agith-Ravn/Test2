@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b8lF025o/OeG3nNUSfDANrnpT4YYIrN+1aS809ouXdPe3x5+oW0calvjXMpAvQuiJoucqcICl9WE2Xl4MtBkaA==",
+  "dgSpecHash": "IbZ63yrFLwCGg0NLeeUEPQARrGmreZAEsX3frXvGEZPw/nwjjf1jzRG+GEyqKTbqtD+jnkh+8ioHqbocgTnrtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Visjon\\source\\repos\\Oppgave19.6\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\Visjon\\Documents\\GitHub\\GET_Academy\\M3\\Oppgave19.6\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Visjon\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Visjon\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

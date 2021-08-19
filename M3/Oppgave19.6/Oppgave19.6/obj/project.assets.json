@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Visjon\\source\\repos\\Oppgave19.6\\Oppgave19.6\\Oppgave19.6.csproj",
+      "projectUniqueName": "C:\\Users\\Visjon\\Documents\\GitHub\\GET_Academy\\M3\\Oppgave19.6\\Oppgave19.6\\Oppgave19.6.csproj",
       "projectName": "Oppgave19.6",
-      "projectPath": "C:\\Users\\Visjon\\source\\repos\\Oppgave19.6\\Oppgave19.6\\Oppgave19.6.csproj",
+      "projectPath": "C:\\Users\\Visjon\\Documents\\GitHub\\GET_Academy\\M3\\Oppgave19.6\\Oppgave19.6\\Oppgave19.6.csproj",
       "packagesPath": "C:\\Users\\Visjon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Visjon\\source\\repos\\Oppgave19.6\\Oppgave19.6\\obj\\",
+      "outputPath": "C:\\Users\\Visjon\\Documents\\GitHub\\GET_Academy\\M3\\Oppgave19.6\\Oppgave19.6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Visjon\\AppData\\Roaming\\NuGet\\NuGet.Config",

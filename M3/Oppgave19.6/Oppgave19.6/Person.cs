@@ -34,7 +34,15 @@
 
         public string GetDescription()
         {
-            return $"{FirstName} {LastName} (Id={Id}) Født: {BirthYear} Død: {DeathYear} Far: {Father.FirstName} (Id={Father.Id}) Mor: {Mother.FirstName} (Id={Mother.Id})";
+            string txt = "";
+            if (FirstName != null) txt += $"{FirstName} ";
+            if (LastName != null) txt += $"{LastName} ";
+            if (Id != 0) txt += $"(Id={Id}) ";
+            if (BirthYear != 0) txt += $"Født: {BirthYear} ";
+            if (DeathYear != 0) txt += $"Død: {DeathYear} ";
+            if (Father != null) txt += $"Far: {Father.FirstName} (Id={ Father.Id}) ";
+            if (Mother != null) txt += $"Mor: {Mother.FirstName} (Id={ Mother.Id}) ";
+            return txt.TrimEnd();
         }
     }
 }
