@@ -63,5 +63,43 @@ class UnitTest {
 
         assertEquals(expectedDescription, actualDescription);
     }
+	
+	@Test
+	public void Test()
+    {
+        var sverreMagnus = new Person()
+        		.setId(1)
+        		.setFirstName("Sverre Magnus")
+        		.setBirthYear(2005);
+        
+        var ingridAlexandra = new Person() 
+        		.setId(2)
+        		.setFirstName("Ingrid Alexandra")
+        		.setBirthYear(2004);
+        
+        var haakon = new Person() 
+        		.setId(3)
+        		.setFirstName("Haakon Magnus")
+        		.setBirthYear(1973);
+        
+        var harald = new Person() 
+        		.setId(6)
+        		.setFirstName("Harald")
+        		.setBirthYear(1937);
+        
+        sverreMagnus.father = haakon;
+        ingridAlexandra.father = haakon;
+        haakon.father = harald;
+
+        Person[] persons = {sverreMagnus, ingridAlexandra, haakon};
+        
+        var app = new FamilyApp(persons);
+        var actualResponse = app.HandleCommand("vis 3");
+        var expectedResponse = "Haakon Magnus (Id=3) Født: 1973 Far: Harald (Id=6)\n"
+               + "  Barn:\n"
+               + "    Sverre Magnus (Id=1) Født: 2005\n"
+               + "    Ingrid Alexandra (Id=2) Født: 2004\n";
+        assertEquals(expectedResponse, actualResponse);
+    }
 
 }
