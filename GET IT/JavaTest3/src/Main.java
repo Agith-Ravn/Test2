@@ -19,15 +19,18 @@ public class Main {
         		.setBirthYear(1973);
         
         var metteMarit = new Person()
+        		.setId(4)
         		.setFirstName("Mette-Marit")
         		.setBirthYear(1973);
         
         var marius = new Person()
+        		.setId(5)
         		.setFirstName("Marius")
         		.setLastName("Borg Høiby")
         		.setBirthYear(1997);
         
         var harald = new Person()
+        		.setId(6)
         		.setFirstName("Harald")
         		.setBirthYear(1937);
         
@@ -42,7 +45,7 @@ public class Main {
         		.setBirthYear(1903);
 
         sverreMagnus.father = haakon;
-        sverreMagnus.mother = mettevMarit;
+        sverreMagnus.mother = metteMarit;
         ingridAlexandra.father = haakon;
         ingridAlexandra.mother = metteMarit;
         marius.mother = metteMarit;
@@ -56,7 +59,8 @@ public class Main {
         var app = new FamilyApp(persons);
         
         System.out.println(app.WelcomeMessage());
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
         
         while (true)
         {

@@ -42,7 +42,7 @@ public class FamilyApp {
         
         else if (command.contains(" "))
         {
-        	String[] command2 = command.split(command);
+        	String[] command2 = command.split(" ");
         	System.out.println(command2[0]);
         	int id = Integer.parseInt(command2[1]);
         	System.out.println(id);
@@ -81,7 +81,7 @@ public class FamilyApp {
 				children.add(person);
 			}
 		}
-		Person[] children2 = (Person[]) children.toArray();
+		Person[] children2 = children.toArray(new Person[0]);
 		return children2;
 	}
 }
