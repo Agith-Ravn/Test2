@@ -54,6 +54,8 @@ namespace Øvelse4
             {
                 endpoints.MapControllers();
             });
+
+            app.UseStaticFiles();
         }
     }
 }

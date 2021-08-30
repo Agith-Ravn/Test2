@@ -10,21 +10,50 @@ namespace Øvelse4.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PersonController : ControllerBase
     {
-        public Person GetOne(int id)
+        private Person[] _data = new[]
         {
-            return new Person()
-            {
-                Id = id,
-                Email = "test@epost.net",
-                Name = "Test"
-            };
+            new Person() {Id = 1, Email = "test1@epost.net", Name = "Test1"},
+            new Person() {Id = 2, Email = "test2@epost.net", Name = "Test2"}
+        };
+
+    [HttpGet("{id}")]
+        public async Task<Person> GetOne(int id)
+        {
+            return await Task.Run(() => _data.SingleOrDefault(p => p.Id==id)
+
+                //new Person()
+                //{
+                //    Id = id,
+                //    Email = "test@epost.net",
+                //    Name = "Test"
+                //}
+            );
         }
 
-        public IEnumerable<Person> GetMany()
+        [HttpGet]
+        public async Task<IEnumerable<Person>> GetMany()
         {
+            return await Task.Run(() => _data);
+        }
 
+        [HttpPost]
+        public async Task<int> Create(Person person)
+        {
+            return await Task.Run(() => 1);
+        }
+
+        [HttpPut]
+        public async Task<int> Edit(Person person)
+        {
+            return await Task.Run(() => 1);
+        }
+
+        [HttpDelete]
+        public async Task<int> Delete(int id)
+        {
+            return await Task.Run(() => 1);
         }
     }
 }
