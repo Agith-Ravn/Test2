@@ -1,6 +1,9 @@
-﻿namespace NumberPuzzleWeb.Core.DomainModel
+﻿using System;
+using System.Linq;
+
+namespace NumberPuzzleWeb.Core.DomainModel
 {
-    public class GameModel : BaseEntity
+    public class GameModel : BaseModel
     {
         private readonly int[] _numbers;
         private readonly Random _random;
