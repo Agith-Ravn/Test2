@@ -102,3 +102,5 @@ C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Uni
 C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.UnitTest\obj\Debug\net5.0\ref\NumberPuzzleWeb.UnitTest.dll
 C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.UnitTest\obj\Debug\net5.0\NumberPuzzleWeb.UnitTest.pdb
 C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.UnitTest\obj\Debug\net5.0\NumberPuzzleWeb.UnitTest.genruntimeconfig.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.UnitTest\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.UnitTest\bin\Debug\net5.0\Moq.dll

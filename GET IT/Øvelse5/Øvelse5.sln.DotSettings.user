@@ -8,5 +8,8 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.Tests.TestIsNotSolved&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.Tests.TestIsSolved&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.UnitTest2.TestStartGame&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.UnitTest2.TestRead&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.UnitTest2.TestPlay&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
