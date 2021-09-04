@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "NumberPuzzleWeb.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/NumberPuzzleWeb.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NumberPuzzleWeb.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NumberPuzzleWeb.Core/1.0.0": {
+      "type": "project",
+      "path": "../NumberPuzzleWeb.Core/NumberPuzzleWeb.Core.csproj",
+      "msbuildProject": "../NumberPuzzleWeb.Core/NumberPuzzleWeb.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "NumberPuzzleWeb.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Visjon\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Visjon\\Documents\\GitHub\\GET_Academy\\GET IT\\Øvelse5\\NumberPuzzleWeb.Core\\NumberPuzzleWeb.Core.csproj": {
+              "projectPath": "C:\\Users\\Visjon\\Documents\\GitHub\\GET_Academy\\GET IT\\Øvelse5\\NumberPuzzleWeb.Core\\NumberPuzzleWeb.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

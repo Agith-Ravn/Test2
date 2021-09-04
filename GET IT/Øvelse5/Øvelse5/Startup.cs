@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using NumberPuzzleWeb.Core.DomainServices;
+using NumberPuzzleWeb.Infrastructure.DataAccess.Repository;
 
 namespace Øvelse5
 {
@@ -32,6 +34,7 @@ namespace Øvelse5
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Øvelse5", Version = "v1" });
             });
+            services.AddScoped<IGameModelRepository, InMemoryGameModelRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
