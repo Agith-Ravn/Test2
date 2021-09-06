@@ -29,7 +29,7 @@ namespace NumberPuzzleWeb.Infrastructure.DataAccess.Repository
         public Task<bool> Update(GameModel gameModel)
         {
             _gameModels[gameModel.Id] = gameModel;
-            return Task.FromResult().true
+            return Task.FromResult(true);
         }
     }
 }

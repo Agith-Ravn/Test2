@@ -1,0 +1,15 @@
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.AssemblyInfo.cs
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\bin\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.deps.json
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\bin\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\bin\Debug\net5.0\ref\NumberPuzzleWeb.Infrastructure.DataAccess.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\bin\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\bin\Debug\net5.0\NumberPuzzleWeb.Core.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\bin\Debug\net5.0\NumberPuzzleWeb.Core.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.csproj.CopyComplete
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\ref\NumberPuzzleWeb.Infrastructure.DataAccess.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Infrastructure.DataAccess\obj\Debug\net5.0\NumberPuzzleWeb.Infrastructure.DataAccess.pdb

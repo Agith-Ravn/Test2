@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NumberPuzzleWeb.Infrastructure.DataAccess/1.0.0": {
+        "dependencies": {
+          "NumberPuzzleWeb.Core": "1.0.0"
+        },
+        "runtime": {
+          "NumberPuzzleWeb.Infrastructure.DataAccess.dll": {}
+        }
+      },
+      "NumberPuzzleWeb.Core/1.0.0": {
+        "runtime": {
+          "NumberPuzzleWeb.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NumberPuzzleWeb.Infrastructure.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NumberPuzzleWeb.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
