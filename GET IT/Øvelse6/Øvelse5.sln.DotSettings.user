@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ace1f25e_002D0687_002D46b8_002Da3e2_002Db93710cf758d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestIsNotSolved" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.Tests.TestIsNotSolved&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d6ad84e8_002D11c0_002D4251_002D9bd2_002Db67d6021b005/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestIsNotSolved #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.Tests.TestIsNotSolved&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.Tests.TestIsSolved&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.UnitTest2.TestStartGame&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.UnitTest2.TestRead&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AD47D53F-245E-4242-8522-FA13D06CD456::net5.0::NumberPuzzleWeb.UnitTest.UnitTest2.TestPlay&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

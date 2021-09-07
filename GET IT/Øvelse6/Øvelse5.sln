@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Øvelse5.API", "Øvelse5\Øvelse5.API.csproj", "{77823B64-6F97-4A14-9A56-6AD9F08F9A8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.Infrastructure", "10.Infrastructure", "{F1322A00-1765-488C-9D05-8F0C4D4B3B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40.Core", "40.Core", "{8817B22E-E886-4BA6-AC12-3EC61C52A524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90.Test", "90.Test", "{EAB40762-CA53-420F-A5DC-1E53B10ECCA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberPuzzleWeb.UnitTest", "NumberPuzzleWeb.UnitTest\NumberPuzzleWeb.UnitTest.csproj", "{AD47D53F-245E-4242-8522-FA13D06CD456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberPuzzleWeb.Infrastructure.DataAccess", "NumberPuzzleWeb.Infrastructure.DataAccess\NumberPuzzleWeb.Infrastructure.DataAccess.csproj", "{60236564-6D4E-4007-8698-6308FADA047A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberPuzzleWeb.Core", "NumberPuzzleWeb.Core\NumberPuzzleWeb.Core.csproj", "{19C9D9A6-8420-478F-9E65-A03D44B53E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77823B64-6F97-4A14-9A56-6AD9F08F9A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77823B64-6F97-4A14-9A56-6AD9F08F9A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77823B64-6F97-4A14-9A56-6AD9F08F9A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77823B64-6F97-4A14-9A56-6AD9F08F9A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD47D53F-245E-4242-8522-FA13D06CD456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD47D53F-245E-4242-8522-FA13D06CD456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD47D53F-245E-4242-8522-FA13D06CD456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD47D53F-245E-4242-8522-FA13D06CD456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60236564-6D4E-4007-8698-6308FADA047A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60236564-6D4E-4007-8698-6308FADA047A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60236564-6D4E-4007-8698-6308FADA047A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60236564-6D4E-4007-8698-6308FADA047A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C9D9A6-8420-478F-9E65-A03D44B53E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C9D9A6-8420-478F-9E65-A03D44B53E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C9D9A6-8420-478F-9E65-A03D44B53E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C9D9A6-8420-478F-9E65-A03D44B53E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77823B64-6F97-4A14-9A56-6AD9F08F9A8C} = {F1322A00-1765-488C-9D05-8F0C4D4B3B66}
+		{AD47D53F-245E-4242-8522-FA13D06CD456} = {EAB40762-CA53-420F-A5DC-1E53B10ECCA6}
+		{60236564-6D4E-4007-8698-6308FADA047A} = {F1322A00-1765-488C-9D05-8F0C4D4B3B66}
+		{19C9D9A6-8420-478F-9E65-A03D44B53E4D} = {8817B22E-E886-4BA6-AC12-3EC61C52A524}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25BABFA5-19EF-4956-83EA-44FC0C14985E}
+	EndGlobalSection
+EndGlobal
