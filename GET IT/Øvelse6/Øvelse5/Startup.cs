@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using NumberPuzzleWeb.Core.ApplicationServices;
+using NumberPuzzleWeb.Core.DomainModel;
 using NumberPuzzleWeb.Core.DomainServices;
 using NumberPuzzleWeb.Infrastructure.DataAccess.Repository;
 
@@ -29,6 +30,9 @@ namespace Øvelse5
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var value = Configuration.GetConnectionString("NumberPuzzleDb");
+            var connectionString = new ConnectionString(value);
+            services.AddSingleton<ConnectionString>(connectionString);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -8,6 +8,7 @@ namespace NumberPuzzleWeb.Core.ApplicationServices
     public class GameService
     {
         private IGameModelRepository _repository;
+
         public GameService(IGameModelRepository gameModelRepository)
         {
             _repository = gameModelRepository;

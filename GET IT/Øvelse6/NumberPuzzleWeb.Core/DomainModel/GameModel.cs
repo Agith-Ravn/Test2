@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace NumberPuzzleWeb.Core.DomainModel
 {
-    public class GameModel : BaseModel
+    public class GameModel : BaseEntity
     {
         private readonly int[] _numbers;
         private readonly Random _random;

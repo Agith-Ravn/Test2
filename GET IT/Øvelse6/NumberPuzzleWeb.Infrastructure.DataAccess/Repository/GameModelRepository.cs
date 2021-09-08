@@ -32,13 +32,25 @@ namespace NumberPuzzleWeb.Infrastructure.DataAccess.Repository
 
         public async Task<GameModel> Read(Guid id)
         {
-            await using var conn = new SqlConnection(_connectionString);
-            const string select =
-                "SELECT Id, Numbers, PlayCount FROM Game WHERE Id = @Id";
-            var result = await conn.QueryAsync<DbGameModel>(select, new { Id = id });
-            var gameModel = result.SingleOrDefault();
-            return MapToDomain(gameModel);
+            try
+            {
+                //string idString = id.ToString();
+                await using var conn = new SqlConnection(_connectionString);
+                const string select =
+                    "SELECT Id, Numbers, PlayCount FROM Game WHERE Id = @id";
+                var result = await conn.QueryAsync<DbGameModel>(select, new {Id = id});
+                var gameModel = result.SingleOrDefault();
+                return MapToDomain(gameModel);
+            }
+            catch(Exception e)
+            {
+
+            }
+
+            return null;
         }
+
+
 
         public async Task<bool> Update(GameModel gameModel)
         {

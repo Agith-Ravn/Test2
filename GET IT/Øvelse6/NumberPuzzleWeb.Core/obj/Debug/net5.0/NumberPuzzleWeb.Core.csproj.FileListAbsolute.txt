@@ -10,3 +10,15 @@ C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Cor
 C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.dll
 C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Core\obj\Debug\net5.0\ref\NumberPuzzleWeb.Core.dll
 C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse5\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.csproj.AssemblyReference.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.AssemblyInfoInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.AssemblyInfo.cs
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.csproj.CoreCompileInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\ref\NumberPuzzleWeb.Core.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\obj\Debug\net5.0\NumberPuzzleWeb.Core.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\bin\Debug\net5.0\NumberPuzzleWeb.Core.deps.json
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\bin\Debug\net5.0\NumberPuzzleWeb.Core.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\bin\Debug\net5.0\ref\NumberPuzzleWeb.Core.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Øvelse6\NumberPuzzleWeb.Core\bin\Debug\net5.0\NumberPuzzleWeb.Core.pdb

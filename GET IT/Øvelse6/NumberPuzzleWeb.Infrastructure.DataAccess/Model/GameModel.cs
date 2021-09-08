@@ -4,7 +4,19 @@ namespace NumberPuzzleWeb.Infrastructure.DataAccess.Model
 {
     public class GameModel
     {
-        public Guid Id { get; set; }
+        string IdString { get; set; }
+        public Guid Id
+        {
+            get
+            {
+                return new Guid(IdString);
+            }
+            set
+            {
+                IdString = value.ToString();
+            }
+        }
+
         public int PlayCount { get; set; }
         public string Numbers { get; set; }
 
