@@ -32,6 +32,13 @@ namespace Practice7.Controllers
             return output;
         }
 
+        //[Route("api/People/GetFirstNames/{userId:int}/{age:int}")]
+        //[HttpGet]
+        //public List<string> GetFirstNames(int userId, int age)
+        //{
+        //    Handling
+        //}
+
         // GET: api/People
         public List<Person> Get()
         {
