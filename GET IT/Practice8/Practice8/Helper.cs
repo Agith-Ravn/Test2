@@ -1,4 +1,6 @@
-﻿namespace Practice8
+﻿using System.Configuration;
+
+namespace Practice8
 {
     public static class Helper
     {
