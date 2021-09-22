@@ -1,0 +1,12 @@
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EmployeeDataAcess.dll.config
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EmployeeDataAcess.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EmployeeDataAcess.pdb
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EntityFramework.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EntityFramework.xml
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.csproj.AssemblyReference.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.csproj.CoreCompileInputs.cache
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.csproj.CopyComplete
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.dll
+C:\Users\Visjon\Documents\GitHub\GET_Academy\GET IT\Practice11\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.pdb
